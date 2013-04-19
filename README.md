@@ -1,0 +1,1 @@
+# BEMHTML-COMPAT

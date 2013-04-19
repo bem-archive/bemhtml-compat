@@ -1,0 +1,21 @@
+{
+  "name": "bemhtml-compat",
+  "version": "0.0.0",
+  "description": "ERROR: No README.md file found!",
+  "main": "lib/compat.js",
+  "scripts": {
+    "test": "mocha --reporter spec test/*-test.js"
+  },
+  "repository": "",
+  "author": "Fedor Indutny",
+  "license": "MIT",
+  "dependencies": {
+    "ometajs": "~3.2.4",
+    "xjst": "~0.4.12",
+    "esprima": "~1.0.2"
+  },
+  "devDependencies": {
+    "mocha": "~1.9.0",
+    "bemhtml.js": "~ 0.0.1"
+  }
+}
