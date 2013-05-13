@@ -1,4 +1,4 @@
-# BEMHTML-COMPAT [![Build Status](https://secure.travis-ci.org/indutny/bemhtml-compat.png)](http://travis-ci.org/indutny/bemhtml-compat)
+# BEMHTML-COMPAT [![Build Status](https://secure.travis-ci.org/bem/bemhtml-compat.png)](http://travis-ci.org/bem/bemhtml-compat)
 
 Transpiler from old bemhtml source code to new javascript-compatible code.
 

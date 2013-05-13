@@ -1,5 +1,5 @@
 var compat = require('..');
-var bemhtml = require('bemhtml.js');
+var bemhtml = require('bemhtml.xjst');
 var assert = require('assert');
 
 describe('BEMHTML/compat', function() {
