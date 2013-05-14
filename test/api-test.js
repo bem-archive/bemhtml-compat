@@ -1,5 +1,5 @@
 var compat = require('..');
-var bemhtml = require('bemhtml.xjst');
+var bem_xjst = require('bem-xjst');
 var assert = require('assert');
 
 describe('BEMHTML/compat', function() {
@@ -32,8 +32,11 @@ describe('BEMHTML/compat', function() {
     */}));
     assert(typeof out === 'string');
 
+    // Add i-bem
+    out = require('./fixtures/i-bem') + out;
+
     [{ optimize: false }, {}].forEach(function(options) {
-      var t = bemhtml.compile(out, options);
+      var t = bem_xjst.compile(out, options);
       assert.equal(t.apply.call({ block: 'b1' }),
                    '<a class="b1">hello world!</a>');
     });

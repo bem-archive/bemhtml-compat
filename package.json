@@ -16,6 +16,6 @@
   },
   "devDependencies": {
     "mocha": "~1.9.0",
-    "bemhtml-xjst": "~0.0.1"
+    "bem-xjst": "~0.0.2"
   }
 }
