@@ -21,7 +21,8 @@ describe('BEMHTML/compat', function() {
     var out = compat.transpile(getSource(function(){/*
       block b1, tag: 'a'
       block b1, content: {
-        local(this.p = true, this.z = {}, this.z.d = 'world') {
+        local('submode', { x: 1},
+              this.p = true, this.z = {}, this.z.d = 'world') {
           this._buf.push('hello ' + this.z.d);
         }
         return apply('subcontent', this.x = '!');
