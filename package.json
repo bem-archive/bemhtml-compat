@@ -1,6 +1,6 @@
 {
   "name": "bemhtml-compat",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "ERROR: No README.md file found!",
   "main": "lib/compat.js",
   "scripts": {
